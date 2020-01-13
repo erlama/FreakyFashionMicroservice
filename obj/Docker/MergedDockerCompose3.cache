@@ -1,0 +1,20 @@
+services:
+  basket.api:
+    build:
+      context: C:\Workspace\EC\System\FreackyFashionMicroservices
+      dockerfile: src/Services/Basket/Basket.API/Dockerfile
+    depends_on:
+    - basket.data
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: freackyFashion/basket.api:linux-latest
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\erlam_000\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\erlam_000\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  basket.data:
+    image: redis:alpine
+version: '3.4'

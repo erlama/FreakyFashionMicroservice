@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  basket.data:
+    image: redis:alpine
+
+  basket.api:
+    image: ${REGISTRY:-freacky_fashion}/basket.api:${PLATFORM:-linux}-${TAG:-latest}
+    build:
+      context: .
+      dockerfile: src/Services/Basket/Basket.API/Dockerfile
+    depends_on:
+     - basket.data

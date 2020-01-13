@@ -1,0 +1,11 @@
+C:\Workspace\EC\System\FreackyFashionMicroservices\bin\Debug\appsettings.Development.json
+C:\Workspace\EC\System\FreackyFashionMicroservices\bin\Debug\appsettings.json
+C:\Workspace\EC\System\FreackyFashionMicroservices\bin\Debug\Properties\launchSettings.json
+C:\Workspace\EC\System\FreackyFashionMicroservices\bin\Debug\Basket.API.exe
+C:\Workspace\EC\System\FreackyFashionMicroservices\bin\Debug\Basket.API.dll
+C:\Workspace\EC\System\FreackyFashionMicroservices\bin\Debug\Basket.API.pdb
+C:\Workspace\EC\System\FreackyFashionMicroservices\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Workspace\EC\System\FreackyFashionMicroservices\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Workspace\EC\System\FreackyFashionMicroservices\bin\Debug\StackExchange.Redis.dll
+C:\Workspace\EC\System\FreackyFashionMicroservices\bin\Debug\Pipelines.Sockets.Unofficial.dll
+C:\Workspace\EC\System\FreackyFashionMicroservices\bin\Debug\System.Diagnostics.PerformanceCounter.dll
